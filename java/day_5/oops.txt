@@ -1,0 +1,10 @@
+inheritance- child class / sub class
+child class by use the all propeties and behaviour acquire the parent class
+
+
+Types of Inheritance 
+  1: single Inheritance a-> b
+  2:multilevel inheritance  a-> b->c
+  3: hirarical inheritance a->b a->c[single parent multiple children]
+  4; multiple inheritance a->c  b->c[multiple parent single child]
+  5: hybrid inhertance [combination of any two inheritance]

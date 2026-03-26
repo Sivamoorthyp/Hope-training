@@ -1,0 +1,11 @@
+polymorphism
+ 
+  poly -> many
+  morph -> forms
+   polymorphism means ont thing existing in different forms
+   in coding -> one method existing in diffirent behaviours
+
+Types 
+   Compile time polymorphism (method overloading) - same name different parameters
+   run time polymorphism(method overriding) - same name same parameters but in different classes
+   
