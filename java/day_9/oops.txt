@@ -1,0 +1,62 @@
+ABSTRACTION
+   -> the process of hiding internal implementation and showing only essential features
+To acheive ABSTRACTION 
+    -> Abstract class (partial Abstraction) - it define what the chinld can do
+    -> Interface ( complete Abstraction)   
+
+/Methods
+  -> abstract method - must override in child class
+  -> concrete method - will be inherited automattically
+
+ Interface -> Abstraction
+    always public + abstract method 
+
+ Multiple inheritance
+  -> we acheive multiple inheritance only through Interface
+  -> one child class with multiple inheritance
+  -> no ambiguity(no mathod body or parent class)
+         for multiple parents override method without conflict
+         
+
+Inheritance -> Is a relationship
+Abstraction -> has a relationship         
+
+composition tightly coupled
+Aggregation weakly coupled
+
+          tightly coupled -> completely dependent
+          weak coupled  -> can exist independetly
+
+
+INTERVIEW QUESTION
+
+Coupling :-
+     Realtionship between two class is said to coupling.
+   (or)
+     How much one class depends on another class.
+
+Cohesion :-
+     -> how much responsibities of class belong together
+   Types  
+       i) high Cohesion
+         Ex :- 
+           class fan{
+            fanon();
+            fanoff();
+           }
+           class light{
+            lighton();
+            lightoff();
+           }
+
+       ii) low Cohesion
+           Ex:- 
+             class elec{
+                lighton();
+                fanon();
+                fanoff();
+             }
+
+By creating the system  this is the method was best:-
+     loose coupling and high cohesion to create the software
+      
