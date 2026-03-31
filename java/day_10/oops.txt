@@ -1,0 +1,43 @@
+Encapsulation
+
+   -> binding data and methods that use the data in the class
+   -> controlling the access of the data
+
+To create the encapsulation methods
+
+1 - declaring private data member
+2 - methods called getters and setters
+
+
+
+1)  - Design locker system where user can store items securely 
+ - Each locker protect its internal data and only controlled operation
+  
+1) REQUIRMENTS
+   each locker has
+     locker id
+    islocked(boolean)
+     pin
+     stored them
+2) OPERATION
+    Store item(item,pin)
+    retrive item(pin)
+    lock()
+    unlock(pin)
+3) RULES
+    Items cannot acess directly
+    locker opens only with crt pin
+    invalid acess should be blocked
+
+2)Design documnent editor where user create different types of document like textdoc,imagedoc,spreadsheetdoc
+
+Requirement
+1.Each document should open,save,close
+2.Different document types behave differently
+  text->Shows text content
+  image->Renders image
+  spreadsheet->calculate cells
+3.rules 
+  user should not know internal logic
+  document data must be protected
+  System should allow adding new document type
