@@ -1,0 +1,9 @@
+exception handling 
+   the things that distrub the flow of program
+
+types
+try->Execute the risky part of code
+catch->Work when risky part of code fails
+finally->Always execute at last
+throw->Used to manually creating an exception
+throws->class or method might gives an exception
