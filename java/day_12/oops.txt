@@ -1,0 +1,37 @@
+wrapper class
+  object representation of primitive data types
+
+ ArrayList<Integer> a 
+        primitve int - Integer
+        char - character
+        bool - boolean
+        float - float
+        short - short
+        byte -  byte
+        long -  Long
+        double - Double
+
+Autoboxing : int -> Integer
+Unboxing : Integer ->  int        
+
+the above two works compiler converts during compilation.
+
+Packages - organize the class and interface into a hierarichal structure
+
+-> Folders for classes
+-> built in Packages
+-> user defined package -(reverse doaining names)
+
+Task 1 -> E-commerce package
+  com.ecommmerce
+   user(name,address)
+   product(name,price)
+   order(user,product,quantity)
+   orderservice(order)
+   main
+
+ output
+  username
+  product name
+  quantity
+  total price  
