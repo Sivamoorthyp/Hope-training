@@ -1,0 +1,19 @@
+Map Interface
+  store in key - value pairs
+
+ -> Map<Integer,Integer> mp=new HashMap<>();
+
+HashMap works
+  -> hashcode()
+  -> equals()
+
+Methods
+  -> m.put(key,value) by use frequency   : ->  existing key (or) to add it the new key and value
+  -> m.get(key) to retrive the value
+  -> m.containsKey(key) to check existing of key (True or False)
+  -> m.removeKey(key) to reomove with existing key
+  -> m.getOrDefault() to check existing if not found add it else increament the value of that key
+  -> m.keySet() looping through all the key in the Map
+
+
+      

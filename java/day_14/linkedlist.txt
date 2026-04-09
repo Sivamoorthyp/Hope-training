@@ -1,0 +1,18 @@
+Set Interface
+ -> store only uique value and it does not allow duplicates
+ -> uses hshcode() and equlas()
+ set.add('a');
+ set.add('b');
+ set.add('a');// remove duplicates
+
+HashSet
+ -> does not allow duplicates
+ -> store random and not store by sequence
+
+Methods HashSet
+    -> add
+    -> remove 
+    -> contains (always return boolean value)
+    -> size() 
+
+-> To store null value single time in the Set    

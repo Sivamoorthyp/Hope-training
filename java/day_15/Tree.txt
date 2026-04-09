@@ -1,0 +1,20 @@
+TreeSet
+  -> use self balancing tree(red-block tree) internally
+  
+  inorder(LNR)
+  preorder(NLR)
+  postOrder(LRN)
+
+ Methods 
+
+   Ex;- [10,20,30,40,50]
+
+  -> first() to print samller number in tree - 10
+  -> last() to print the largest number in the tree -50
+  -> ceil() check greater the number 25 -> 30
+  -> floor() check lowest than number 25 -> 20
+  -> higher(25) highest than 25
+  -> lower(25) lowest than 25
+
+
+TreeSet is always used to find out the nearest element 
