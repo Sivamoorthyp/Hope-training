@@ -1,0 +1,12 @@
+Iterator 
+  -> trversing collection of elements by element through cursor
+  -> during running we can modify the arraylist by using Iterator
+  -> by using arraylist to remove then occur concurrent modification system error 
+
+Mathods
+  -> .hasNext() -> checks next elements exist or not
+  -> .next() -> move cursor to next element
+  -> remove() -> remove the element from the list
+
+ComparablrInterface
+   -> natural ordering default way os shorting
