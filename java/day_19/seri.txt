@@ -1,0 +1,8 @@
+serilization (use package java.io)
+    product p=new product();
+
+    // by using serializtion it store in RAM ,after excution it deleted , by using object to we take it again we want
+    -> it is platform independent
+    -> to store all into (object -> byteStream -> files)
+    -> converting object into byte streams and storing it in file / database to maintain the state of object
+
