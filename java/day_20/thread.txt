@@ -1,0 +1,18 @@
+single thread
+   -> runs step by step , excutes one task at a time
+
+    Disadvantages
+     -> takes long time'
+     -> it wants until
+  process
+   -> program currently running
+   -> process does not share data clearly
+   -> creating process is cpu heavy
+
+   thread
+   -> smallest unit of process that perform that perform task
+   -> thread always belongs to task
+   -> multiple threads can exist inside one process
+
+thread synchronization
+   
