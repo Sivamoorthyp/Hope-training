@@ -1,0 +1,18 @@
+Functional Programming
+  Evolution:
+    Java 1 : (WORA write once read anywhere) Basic features
+    Java 5 : For each loop, generics 
+    Java 7 : Exception handling
+    Java 8 : Lambda, Functional interface, Stream API 
+      -> Modern Java, less code, more flexible, powerful
+
+
+ Built-in Function interface 
+    1 -> predicate
+         -> an interface that takes something and return true or false
+         
+comsumer
+   -> an interface which takes input and do something with it ans return nothing
+   -> input -> action -> return nothing
+
+   -> Ex ; print number ,updating value
