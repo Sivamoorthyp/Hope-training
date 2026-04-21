@@ -1,0 +1,22 @@
+Streams (we not use any loop in real project 
+        -> by use alternate of loop we use stream operations to use it contains (filter,map,reduce,collect) to use .   )
+   -> process the data from collections , array ...etc,
+   -> sequence of elemnets supports functional operations
+
+   java7 :- Imperative style(loops,mutations)
+   java8+ :- declarative style,less bioler plate
+
+
+   Streams work pipieline of operations
+     source           - >    Intermediate operations  -> terminal operations 
+     (where data            (map,filter)                   forEach(),tolist()
+     comes from)
+
+    Employee(name,dep,salary,AGE){
+        (dev,hr,support)
+    } 
+    1 -> filter by dept(dev)
+    2 -> salary greater the 50K'
+    3 -> total salry using sum() method
+    4 -> average salary average() methoid
+    5 -> total count of employee using count() method
